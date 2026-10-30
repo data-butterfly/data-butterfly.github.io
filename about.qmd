@@ -15,7 +15,7 @@ Welcome to my stupid little page!!
 ```{=html}
 <div class="photo-credit">
   <img src="images/butterfly.jpg" alt="A swallowtail butterfly on a thistle flower" draggable="false">
-  <span class="credit-text">Photo: by 3dogfarm via Pixabay</span>
+  <span class="credit-text">Picture by 3dogfarm via Pixabay</span>
 </div>
 ```
 :::

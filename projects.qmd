@@ -1,0 +1,7 @@
+---
+title: "Franziska Becker"
+listing:
+  contents: projects      # Scans the projects folder
+  type: grid              # Shows the cards as a grid
+  sort: "date desc"       # Newest project first
+---
