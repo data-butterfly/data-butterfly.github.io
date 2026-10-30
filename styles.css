@@ -9,6 +9,9 @@ h1, h2, h3,
   color: #5B3A6B;
 }
 
+
+/* TOP BAR*/
+
 /* Top navigation bar: same beige as the page */
 .navbar {
   background-color: #EDE3D3 !important;
@@ -32,7 +35,82 @@ h1, h2, h3,
   text-underline-offset: 6px;
 }
 
-/* Optional: links inside the text */
+
+/* INSIDE THE TEXT */
+
+/* links inside the text */
 a {
   color: #5B3A6B;
 }
+
+
+/* BUTTERFLY PICTURE - INFO TEXT */
+
+.photo-credit {
+  position: relative;
+  display: inline-block;
+  max-width: 400px;
+}
+.photo-credit img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+.photo-credit .credit-text {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 6px 10px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.8rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 0 0 8px 8px;
+}
+.photo-credit:hover .credit-text {
+  opacity: 1;
+}
+
+/* ABOUT PAGE: two columns with a fine grey line */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about-text {
+  padding-right: 2rem;
+  border-right: 1px solid #d9d0c1;
+}
+.about-image {
+  padding-left: 2rem;
+}
+
+.photo-credit img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* GitHub button at the bottom */
+.about-footer {
+  margin-top: 2rem;
+}
+
+/* On phones: one column, no line */
+@media (max-width: 767px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-text {
+    padding-right: 0;
+    border-right: none;
+  }
+  .about-image {
+    padding-left: 0;
+    margin-top: 1.5rem;
+  }
+}
+
+

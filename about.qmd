@@ -1,12 +1,31 @@
 ---
 title: "About"
-about:
-  template: marquee
-  image: profile.jpg
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/data-butterfly
 ---
 
-hallo hallo
+::: {.about-grid}
+
+::: {.about-text}
+
+#
+
+Welcome to my stupid little page!!
+:::
+
+::: {.about-image}
+```{=html}
+<div class="photo-credit">
+  <img src="images/butterfly.jpg" alt="A swallowtail butterfly on a thistle flower" draggable="false">
+  <span class="credit-text">Photo: by 3dogfarm via Pixabay</span>
+</div>
+```
+:::
+
+:::
+
+```{=html}
+<div style="text-align: center; margin-top: 18rem;">
+  <a class="btn btn-outline-secondary btn-sm" href="https://github.com/data-butterfly">
+    <i class="bi bi-github"></i> GitHub
+  </a>
+</div>
+```
