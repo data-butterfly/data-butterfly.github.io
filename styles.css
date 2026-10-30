@@ -114,3 +114,18 @@ a {
 }
 
 
+/* Project cards */
+.quarto-grid-item.card {
+  background-color: #EFE8F5;
+  border-color: #C5B3D8;
+}
+
+/* Make the text area transparent, so the card color shows through */
+.quarto-grid-item .card-body,
+.quarto-grid-item .card-attribution {
+  background-color: transparent;
+}
+
+.quarto-grid-item.card:hover {
+  background-color: #E8DFF0;
+}
