@@ -1,1 +1,15 @@
-/* css styles */
+/* Background color of the whole page */
+body {
+  background-color: #F5EFE6;
+}
+
+/* Page title and headings */
+h1, h2, h3,
+.quarto-title h1.title {
+  color: #5B3A6B;
+}
+
+/* Top navigation bar: same beige as the page */
+.navbar {
+  background-color: #EDE3D3 !important;
+}
