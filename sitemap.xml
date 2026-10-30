@@ -2,7 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://data-butterfly.github.io/about.html</loc>
-    <lastmod>2026-10-30T19:16:00.651Z</lastmod>
+    <lastmod>2026-10-30T19:38:07.334Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data-butterfly.github.io/projects.html</loc>
+    <lastmod>2026-10-30T19:47:41.974Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data-butterfly.github.io/projects/map-3.html</loc>
+    <lastmod>2026-10-30T19:48:37.042Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data-butterfly.github.io/projects/map-2.html</loc>
+    <lastmod>2026-10-30T19:48:28.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data-butterfly.github.io/projects/map-1.html</loc>
+    <lastmod>2026-10-30T19:41:56.946Z</lastmod>
   </url>
   <url>
     <loc>https://data-butterfly.github.io/index.html</loc>
