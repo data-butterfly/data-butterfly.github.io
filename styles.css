@@ -13,3 +13,26 @@ h1, h2, h3,
 .navbar {
   background-color: #EDE3D3 !important;
 }
+
+/* Menu links in the top bar */
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #5B3A6B !important;
+}
+
+/* Active page and mouse-over: a slightly lighter purple */
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #5B3A6B !important;
+}
+
+/* Show the current page with an underline instead of a different color */
+.navbar .nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/* Optional: links inside the text */
+a {
+  color: #5B3A6B;
+}
